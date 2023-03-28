@@ -9,7 +9,21 @@
         Console.WriteLine(solution.ContainsDuplicate(new int[] { 1, 2, 1 }));
         String[] fizz = (String[]) solution.FizzBuzz(15);
         for (int i = 0; i < fizz.Length; i++)
-            Console.WriteLine(fizz[i]);
+            Console.Write(fizz[i]);
+        Console.WriteLine();
+        int[] test = solution.TwoSum(new int[] { 1, 3, 4 }, 5);
+        Console.WriteLine(test[0] +" " + test[1]);
+    
+    }
+    public int[] TwoSum(int[] nums, int target)
+    {
+        for (int i = 0; i < nums.Length; i++)
+            for (int j = i + 1; j < nums.Length; j++)
+                if (target == nums[i] + nums[j])
+                    return new int[] { i, j };
+
+
+        return new int[] { 0, 1 };
     }
     public bool IsPalindrome(int x)
     {
