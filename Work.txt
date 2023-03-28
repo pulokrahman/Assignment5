@@ -1,0 +1,38 @@
+1. What type would you choose for the following “numbers”?
+A person’s telephone number
+String
+A person’s height
+A person’s age
+Int
+A person’s gender (Male, Female, Prefer Not To Answer)
+Char :'M','F','P'
+A person’s salary
+A book’s ISBN
+A book’s price
+Double
+A book’s shipping weight
+A country’s population
+The number of stars in the universe
+The number of employees in each of the small or medium businesses in the
+United Kingdom (up to about 50,000 employees per business)
+int[]
+2. What are the difference between value type and reference type variables?
+
+3. What happens when you divide an int variable by 0?
+System.DivideByZeroException, run time error. Program stops running.
+
+4. What happens when you divide a double variable by 0?
+Value is infinity and program keeps running.
+5. What happens when you overflow an int variable, that is, set it to a value beyond its
+range?
+The int variable loops back to the min value of an int like a modulo. 
+6. What is the difference between x = y++; and x = ++y;?
+Postfix vs Prefix, the former sets x to y and then increments y by 1, and the latter would set x to y+1 and increments y by 1.
+
+7. What is the difference between break, continue, and return when used inside a loop
+statement?
+Break stops the loop.
+Continue stops the iteration of the the loop and moves onto the next iteration if the check condition is still true.
+Return stops the loop but also stops the function and returns a value if the return type isn't void.
+  
+8. What are the three parts of a for statement and which of them are required?
