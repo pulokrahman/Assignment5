@@ -2,21 +2,29 @@
 A person’s telephone number
 String
 A person’s height
+Float
 A person’s age
 Int
 A person’s gender (Male, Female, Prefer Not To Answer)
 Char :'M','F','P'
 A person’s salary
+Decimal
 A book’s ISBN
+String
 A book’s price
-Double
+Decimal
 A book’s shipping weight
+float
 A country’s population
+int
 The number of stars in the universe
+long
 The number of employees in each of the small or medium businesses in the
 United Kingdom (up to about 50,000 employees per business)
 int[]
 2. What are the difference between value type and reference type variables?
+A value type contains the data itself. Also when two value types have the same data, doing an operation on one doesn't affect the other.
+A reference type variable like an contains references knowns as objects. Two reference variablescan contain the same object and doing operation one affects the other.  
 
 3. What happens when you divide an int variable by 0?
 System.DivideByZeroException, run time error. Program stops running.
@@ -36,3 +44,8 @@ Continue stops the iteration of the the loop and moves onto the next iteration i
 Return stops the loop but also stops the function and returns a value if the return type isn't void.
   
 8. What are the three parts of a for statement and which of them are required?
+intialization,condition, and iterator
+Only the condition
+int i=1
+for (;i<5;)
+i++
